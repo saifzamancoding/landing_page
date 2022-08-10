@@ -1,0 +1,140 @@
+body {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0;
+}
+
+.header, .footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    margin:0;
+}
+
+.header_logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 700;
+    margin-left: 64px;
+}
+
+.header_links {
+    margin-right: 64px;
+    display: flex;
+    gap: 10px;
+}
+
+a {
+    color:#F9FAF8;
+    text-decoration: none;
+}
+
+.frame1 {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display:flex;
+    flex-direction: row;
+    padding:64px;
+    gap: 20px;
+}
+
+.left_panel {
+    display:block;
+}
+
+img {
+    max-width: 350px;
+    height:auto;
+}
+
+button {
+    background-color: #3882F6;
+    color: white;
+    border-radius: 15px;
+    border-style: hidden;
+    padding: 10px 30px;
+    font-weight: 700;
+}
+
+.frame2 {
+    background-color:;
+    color: #1F2937;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.frame2-2 {
+    background-color:;
+    color: #1F2937;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    padding:40px;
+    gap: 10px;
+}
+
+.container {
+    width: 100;
+    display:flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.text {
+    color: black;
+}
+
+.frame3 {
+    background-color: #E5E7EB;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+.quote {
+    color: #1F2937;
+    font-size: 18px;
+}
+
+.author {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: 900;
+}
+
+.frame4 {
+    background-color:;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding:40px;
+    gap: 10px
+}
+
+.bluebox {
+    background-color: #3882F6;
+    color: white;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.footer {
+    justify-content: center;
+    padding: 20px
+}
